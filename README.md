@@ -9,6 +9,7 @@ More accurately, this project is a minimal example of how to load a native DLL i
 This is intended as a starting point for experimentation, cockpit integration, state synchronisation, external tooling, and other DCS Lua/native interop work.
 
 A picture says a thousand words, apparently, so here's my scribble:
+```text
                   DCS
                    │
       ┌────────────┴────────────┐
@@ -20,6 +21,7 @@ A picture says a thousand words, apparently, so here's my scribble:
                 Rics.dll
                    │
             Native C/C++ Code
+```
 
 RICS is a stripped-down version of something I'm slowly building over time. The rest is currently secret squirrel tech.
 
